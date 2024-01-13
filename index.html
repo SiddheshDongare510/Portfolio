@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a803c527e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGOFINAL.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Siddhesh</span> <br> Dongare From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/FinalOffImg.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As an enthusiastic engineering student, my fascination with technology and coding runs deep. 
+                        I thrive on the intricacies of languages such as C/C++, enjoy crafting user-friendly websites, 
+                        and find joy in unraveling complex problems. Currently seeking avenues for internships or 
+                        entry-level positions, I'm eager to channel my coding prowess into real-world applications. 
+                        My goal is to immerse myself in compelling software engineering projects, where I can not only
+                         contribute but also soak up knowledge from a collaborative and innovative team. I'm excited 
+                         about the prospect of bringing my unique perspective to the table and expanding my skill set 
+                         while making meaningful contributions to cutting-edge tech initiatives.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Achivements')">Achivements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>DSA</span><br>Data Structure and Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021 - present</span><br>BTech PIE,MNNIT Allahabad 7.41(CPI)</li>
+                            <li><span>Class XII</span><br>B N Bandodkar College Thane,Mumbai Maharashtra (76.15%)</li>
+                            <li><span>Class X</span><br>G N School Sawarde,Chiplun Maharashtra (95.60%)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achivements">
+                        <ul>
+                            <li><span>Sports</span><br>Represent Hockey Team at InterNIT 2023</li>
+                            <li><span>Tech Event</span><br>Top Ranker at Triathelon,Avishkar 2023</li>
+                            <li><span>Coding</span><br>Codeforces Highest Rating 800</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, 
+                        sunt vitae consequuntur reiciendis facilis est non? Numquam est totam voluptate?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sed.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, 
+                        sunt vitae consequuntur reiciendis facilis est non? Numquam est totam voluptate?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sed.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-tablet-screen-button"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, 
+                        sunt vitae consequuntur reiciendis facilis est non? Numquam est totam voluptate?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, sed.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- portfolio -->
+<div id="portfplio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/socialmediaapp1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the people around the world.
+                    Download it from play software</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/music2.jpg">
+                <div class="layer">
+                    <h3>Music Website</h3>
+                    <p>Explore the latest tunes at your fingertips. 
+                        Dive into the freshest beats, elevate your listening experience. 
+                        Visit our website now!</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/shopping3.jpg">
+                <div class="layer">
+                    <h3>Online shopping Website</h3>
+                    <p>Shop smart, shop seamlessly. 
+                        Explore a curated selection of top-notch products online. 
+                        Elevate your shopping experience - visit our website today!</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> siddheshdongare1234@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9322689529</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/siddhesh-dongare1234"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/sid._.dongare/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/siddhesh.dongare.184"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/Resume_Siddhesh_Dongare.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>All content © Siddhesh - 
+            Cherishing creativity with care <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzXTWohg4jZHbHDURQ3GsI9YDngZU49_M04IRt2X_OvKRil6NtZmWem0YbCQ_70apGxQw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
